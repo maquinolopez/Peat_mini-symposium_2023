@@ -15,6 +15,8 @@ rm(list=ls())
 
 # Using devtools, install the rplum package from GitHub
 devtools::install_github("Maarten14C/rplum")
+# or
+install.packages('rplum')
 
 # Load the rplum package
 library(rplum)
